@@ -1,0 +1,35 @@
+<html lang="en">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Amelie Haefele SpaceChat</title>
+    <script type="text/javascript" src="backEnd.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body onload = "fetchImage()" id ="mainPage">
+
+    <h1>Out of this world space pictures!</h1>
+    <h3>Save your favourites by pressing the heart this can be undone by pressin the newly appeared broken heart. 
+        <br>
+        Then to move onto the next image click next. Luckily just below the new image are all your old previous liked images!</h3>
+    <div class = "result">
+        <div id = "nasaResult"></div>
+        <div id = "imageDescription"</div>
+    </div>
+  
+    <div id = "buttons">
+        <div id = "likeAndUnlike"></div>
+        <br>
+        <button id="fetchImage" onclick="fetchImage()"> Next </button>
+    </div>
+
+    <h1>All Your Liked Images!</h1>
+    <div id = "likedImages"></div>
+
+</body>
+</html>
